@@ -192,6 +192,7 @@ numbers = (1, 2, 3) #tuple
 alpha_tuple=('a', 'b', 'c')
 alphabets = {'a':'apple', 'b':'ball', 'c':'cat'} #dictionary
 vowels = {'a', 'e', 'i' , 'o', 'u'} #set
+numbers_set = {2, 4, 6, 1, 9}
 
 print(fruits)
 print(numbers)
@@ -199,6 +200,7 @@ print(alphabets)
 print(alphabets['b'])
 print(vowels)
 print alpha_tuple
+print numbers_set
 print "==========="
 
 """
