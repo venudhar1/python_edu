@@ -202,7 +202,6 @@ print alpha_tuple
 print "==========="
 
 """
-
 Python Collections (Arrays)::
 There are four collection data types in the Python programming language:
 
@@ -210,5 +209,4 @@ There are four collection data types in the Python programming language:
 2)TUPLE is a collection which is ordered and unchangeable. Allows duplicate members.
 3)SET is a collection which is unordered and unindexed. No duplicate members.
 4)DICTIONARY is a collection which is unordered, changeable and indexed. No duplicate members.
-
 """
