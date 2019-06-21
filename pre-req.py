@@ -191,8 +191,8 @@ fruits = ["apple", "mango", "orange"] #list
 numbers = (1, 2, 3) #tuple
 alpha_tuple=('a', 'b', 'c')
 alphabets = {'a':'apple', 'b':'ball', 'c':'cat'} #dictionary
-vowels = {'a', 'e', 'i' , 'o', 'u'} #set
-numbers_set = {2, 4, 6, 1, 9}
+vowels = {'a', 'e', 'i' , 'o', 'u', 'e'} #set
+numbers_set = {2, 4, 6, 1, 9, 4}
 
 print(fruits)
 print(numbers)
@@ -212,3 +212,20 @@ There are four collection data types in the Python programming language:
 3)SET is a collection which is unordered and unindexed. No duplicate members.
 4)DICTIONARY is a collection which is unordered, changeable and indexed. No duplicate members.
 """
+#set explained
+#set is
+my_set = {1,3}
+print(my_set)
+my_set.add(2)
+print(my_set)
+my_set.update([5, 4] ,{6, 7, 8})
+print(my_set)
+my_set.discard(5)
+print(my_set)
+my_set.remove(3)
+print(my_set)
+my_set.pop()
+print(my_set)
+my_set.clear()
+print(my_set)
+
