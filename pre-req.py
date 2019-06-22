@@ -229,3 +229,10 @@ print(my_set)
 my_set.clear()
 print(my_set)
 
+#Mutable objects:
+
+#list, dict, set, byte array
+
+#Immutable objects:
+
+#int, float, complex, string, tuple, frozen set[note: immutable version of set], bytes
