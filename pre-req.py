@@ -1,4 +1,5 @@
-from coverage.files import sep
+#from coverage.files import sep
+import sys
 
 x_i = 123  # integer
 x_j = 123L  # long integer
@@ -236,3 +237,7 @@ print(my_set)
 #Immutable objects:
 
 #int, float, complex, string, tuple, frozen set[note: immutable version of set], bytes
+
+
+print 'Number of arguments:', len(sys.argv), 'arguments.'
+print 'Argument List:', str(sys.argv)
