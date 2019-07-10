@@ -1,8 +1,7 @@
 #!/usr/bin/python
 
-
-table_size = int(input("Enter the multiplication table size: "))
-x = table_size
+table_size = input("Enter the multiplication table size: ")
+x = int(table_size)
 
 def multiplier(n):
     i = 1
@@ -12,7 +11,6 @@ def multiplier(n):
     print
 
 #MAIN
-
 
 i = 1
 while i <= x:
