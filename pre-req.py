@@ -238,6 +238,7 @@ print(my_set)
 
 #int, float, complex, string, tuple, frozen set[note: immutable version of set], bytes
 
+print('strin1\tstrin2')
 
 print 'Number of arguments:', len(sys.argv), 'arguments.'
 print 'Argument List:', str(sys.argv)
