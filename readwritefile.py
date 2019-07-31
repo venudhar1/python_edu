@@ -23,18 +23,14 @@ with open('/tmp/python_write_test', 'r') as f:
 #read, readline, readlines, write, writelines
 #r-read,w-write,a-append
 
+#open a file, read the nth and add the nth column number
 
 with open('FL_insurance_sample.csv', 'r') as f:
+    n = 0
     for line in f.readlines():
         if "CLAY" in line:
-            #print(line)
-            fields = line.split(',')
-            #print(fields[7])
-            n = 0
-            for num in fields:
-                print num
-                n += num
-            print n
+            n += float(line.split(',')[7])
+    print n
 
 
 
